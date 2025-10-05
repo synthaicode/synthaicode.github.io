@@ -1,0 +1,34 @@
+title: SynthAICode
+description: A bridge between humans and AIs. Powered by the Amagi Protocol.
+url: https://synthaicode.org
+baseurl: ""           
+
+# Theme
+theme: minima          
+
+# Plugins 
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 
+header_pages:
+  - amagiprotocol/index.md
+  - team/index.md
+  - projects/index.md
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# layouts
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
+
+# SEO
+seo:
+  type: Organization
