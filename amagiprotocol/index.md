@@ -4,7 +4,7 @@ description: A bridge between a human and AIs — how to start, use, and propaga
 layout: page
 permalink: /amagiprotocol/
 ---
-
+<main class="amagi">
 # Amagi Protocol
 *A bridge between a human and AIs.*
 
@@ -115,3 +115,4 @@ A. 推奨しません。**整合性のない情報は暴走を招きます**。�
 
 ## Credits
 SynthAICode — *A bridge between a human and AIs.*
+</main>
