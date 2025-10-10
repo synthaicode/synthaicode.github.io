@@ -48,7 +48,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     <h2>Projects</h2>
     <p>
       Our technical core is <strong>Kafka.Ksql.Linq</strong>—a LINQ-style DSL for KsqlDB
-      co-created by humans and AIs.
+      co-created by a human and AIs.
     </p>
     <ul class="cards">
       <li class="card">
