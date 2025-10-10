@@ -79,3 +79,54 @@ a:hover{ text-decoration:underline; }
   }
   .card img{ background:#ffffff; }
 }
+/* === Amagi Protocol page typographic scale === */
+.amagi{
+  --fs--1: clamp(0.9rem, 0.85rem + 0.3vw, 1.0rem);
+  --fs-0:  clamp(1.0rem, 0.95rem + 0.4vw, 1.125rem);
+  --fs-1:  clamp(1.125rem, 1.02rem + 0.6vw, 1.25rem);
+  --fs-2:  clamp(1.375rem, 1.15rem + 1.0vw, 1.625rem);
+  --fs-3:  clamp(1.75rem, 1.3rem + 1.8vw, 2.25rem);
+  --fs-4:  clamp(2.25rem, 1.6rem + 3.0vw, 3.25rem);
+  text-wrap: pretty;
+}
+
+.amagi h1,
+.amagi h2,
+.amagi h3 { letter-spacing:-0.01em; color:#0b1220; }
+
+.amagi h1{
+  font-size: var(--fs-4);
+  line-height: 1.1;
+  font-weight: 700;
+  margin: 0 0 .5em;
+  text-wrap: balance;
+}
+
+.amagi .hero-sub{
+  font-size: var(--fs-3);
+  line-height: 1.3;
+  color:#475569;
+  margin-top: .5rem;
+  text-wrap: balance;
+}
+
+.amagi section h2{
+  font-size: var(--fs-2);
+  font-weight: 650;
+  line-height: 1.25;
+  margin: 2.5rem 0 1rem;
+}
+
+.amagi .card-title{ font-size: var(--fs-1); font-weight:600; line-height:1.3; }
+.amagi .card-text{ font-size: var(--fs-0); color:#475569; }
+
+.amagi .btn{
+  font-size: var(--fs-0);
+  font-weight: 600;
+  line-height: 1;
+  padding: .9rem 1.1rem;
+  border-radius: .75rem;
+}
+
+.amagi section + section{ margin-top: clamp(2rem, 6vw, 4rem); }
+
