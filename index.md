@@ -1,9 +1,9 @@
 ---
 title: SynthAICode — Amagi Protocol
-description: A bridge between humans and AIs. Powered by the Amagi Protocol.
+description: A bridge between a human and AIs. Powered by the Amagi Protocol.
 ---
 
-<!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -18,7 +18,7 @@ description: A bridge between humans and AIs. Powered by the Amagi Protocol.
     <img src="/assets/logo-org.png" alt="SynthAICode logo" class="hero__logo" />
     <h1 class="hero__title">SynthAICode</h1>
     <p class="hero__tagline">
-      A bridge between humans and AIs.<br/>
+      A bridge between a human and AIs.<br/>
       <span class="sub">Powered by the Amagi Protocol</span>
     </p>
     <div class="hero__cta">
