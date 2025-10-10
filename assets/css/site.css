@@ -142,4 +142,19 @@ a:hover{ text-decoration:underline; }
   .amagi h1, .amagi .hero-sub{ text-wrap: balance; }
 }
 
+/* --- micro polish for /amagiprotocol/ --- */
+
+/* 1) ヒーローブロックの行幅を狭め、視線を集中 */
+.amagi header { max-width: 46ch; }
+
+/* 2) H2 と本文のリズムを統一（見出しが少し強いので余白を調整） */
+.amagi section h2 { margin-top: 2.2rem; margin-bottom: .7rem; }
+
+/* 3) リンクの可読性（下線を少し太く・オフセット） */
+.amagi a { text-underline-offset: 3px; text-decoration-thickness: 1.5px; }
+.amagi a:hover { text-decoration-thickness: 2px; }
+
+/* 4) 箇条書きの左インデントと行間を最適化 */
+.amagi ul { padding-left: 1.15rem; }
+.amagi li { margin: .2rem 0; line-height: 1.6; }
 
