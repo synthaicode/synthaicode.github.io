@@ -33,7 +33,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
       define roles and scopes, insist on traceable reasoning, and iterate purposefully.
     </p>
     <ul class="links">
-      <li><a href="/amagiprotocol/ver3.md">Amagi Protocol v3</a></li>
+      <li><a href="/amagiprotocol/ver3.md">Amagi Protocol </a></li>
     </ul>
   </section>
 
