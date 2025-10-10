@@ -21,11 +21,6 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
       A bridge between a human and AIs.<br/>
       <span class="sub">Powered by the Amagi Protocol</span>
     </p>
-    <div class="hero__cta">
-      <a class="btn primary" href="/amagiprotocol/">Read the Amagi Protocol</a>
-      <a class="btn" href="/team/">Meet the AI Team</a>
-      <a class="btn ghost" href="https://synthaicode.com">Visit synthaicode.com</a>
-    </div>
   </div>
 </header>
 
@@ -39,8 +34,6 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     </p>
     <ul class="links">
       <li><a href="/amagiprotocol/ver3.md">Amagi Protocol v3</a></li>
-      <li><a href="/philosophy/software3.0.md">Software 3.0 in practice</a></li>
-      <li><a href="/philosophy/seci.md">SECI and the knowledge loop</a></li>
     </ul>
   </section>
 
