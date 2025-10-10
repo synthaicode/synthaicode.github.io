@@ -80,53 +80,66 @@ a:hover{ text-decoration:underline; }
   .card img{ background:#ffffff; }
 }
 /* === Amagi Protocol page typographic scale === */
+/* ---------- Amagi Protocol page fine-tuning ---------- */
 .amagi{
-  --fs--1: clamp(0.9rem, 0.85rem + 0.3vw, 1.0rem);
-  --fs-0:  clamp(1.0rem, 0.95rem + 0.4vw, 1.125rem);
-  --fs-1:  clamp(1.125rem, 1.02rem + 0.6vw, 1.25rem);
-  --fs-2:  clamp(1.375rem, 1.15rem + 1.0vw, 1.625rem);
-  --fs-3:  clamp(1.75rem, 1.3rem + 1.8vw, 2.25rem);
-  --fs-4:  clamp(2.25rem, 1.6rem + 3.0vw, 3.25rem);
-  text-wrap: pretty;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: clamp(32px, 4vw, 56px) 20px;
 }
 
-.amagi h1,
-.amagi h2,
-.amagi h3 { letter-spacing:-0.01em; color:#0b1220; }
-
+/* Hero */
 .amagi h1{
-  font-size: var(--fs-4);
-  line-height: 1.1;
-  font-weight: 700;
-  margin: 0 0 .5em;
-  text-wrap: balance;
+  /* 太さを少し軽く＆行間を締める */
+  font-weight: 700;           /* 800→700 相当（テーマが800なら上書き） */
+  line-height: 1.08;          /* 1.1 → 1.08 */
+  margin-bottom: .35em;       /* 余白を気持ちタイトに */
+  letter-spacing: -0.015em;   /* 字詰めを少し強く */
 }
 
-.amagi .hero-sub{
+/* 1行目の英サブコピー（薄く・やや大きく） */
+.amagi .hero-sub:first-of-type{
   font-size: var(--fs-3);
-  line-height: 1.3;
-  color:#475569;
-  margin-top: .5rem;
-  text-wrap: balance;
+  opacity: .82;
+  margin-top: .25rem;
 }
 
+/* “Let your AI read this first.” ブロック（主役） */
+.amagi .hero-sub:nth-of-type(2){
+  font-size: clamp(1.6rem, 1.1rem + 2.2vw, 2.1rem); /* 見出しと本文の中間に */
+  font-weight: 700;
+  line-height: 1.22;
+  color: #1f2937;             /* 少し濃いめ */
+  margin-top: .35rem;
+}
+
+/* セクション見出しと本文のリズム */
 .amagi section h2{
-  font-size: var(--fs-2);
-  font-weight: 650;
-  line-height: 1.25;
-  margin: 2.5rem 0 1rem;
+  margin-top: clamp(28px, 4vw, 40px);
+  margin-bottom: .6rem;
 }
+.amagi p{ line-height: 1.7; }
 
-.amagi .card-title{ font-size: var(--fs-1); font-weight:600; line-height:1.3; }
-.amagi .card-text{ font-size: var(--fs-0); color:#475569; }
+/* 箇条書きの間隔とドットの強さ */
+.amagi ul{ margin: .5rem 0 1.25rem; padding-left: 1.15rem; }
+.amagi ul li{ margin: .25rem 0; }
+.amagi ul li::marker{ color:#0f172a; }
 
+/* CTAボタン（下品にならない程度に主張） */
 .amagi .btn{
-  font-size: var(--fs-0);
-  font-weight: 600;
-  line-height: 1;
-  padding: .9rem 1.1rem;
+  display: inline-block;
+  padding: .85rem 1.1rem;
   border-radius: .75rem;
+  background: #6d28d9;   /* violet-700 系 */
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0,0,0,.05);
+}
+.amagi .btn:hover{ filter: brightness(1.05); }
+
+/* 見出しの改行制御（対応ブラウザのみ） */
+@supports (text-wrap: balance){
+  .amagi h1, .amagi .hero-sub{ text-wrap: balance; }
 }
 
-.amagi section + section{ margin-top: clamp(2rem, 6vw, 4rem); }
 
