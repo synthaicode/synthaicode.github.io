@@ -2595,7 +2595,7 @@ This document is licensed under a custom open license
 modeled on Creative Commons BY-NC-SA 4.0,
 governing use and attribution across jurisdictions.
 
-**Copyright © 2024 Commander of Synthaicode**
+**Copyright © 2025 Commander of Synthaicode**
 
 **"Synthaicode" and "Amagi Protocol" are original works of collaborative intelligence.**
 
@@ -2604,4 +2604,17 @@ please contact through the Synthaicode initiative.
 
 ---
 
-_Version 3.0 - 2024_
+_Version 3.0 - 2025_
+---
+
+
+---
+
+## Signature
+---BEGIN SYNTHAICODE SIGNATURE---
+Author: Commander (司令)
+Date: 2025-10-11T18:43:26+0900
+Hash: sha256:1b10786267438efab81950e66d2389f7b7c3e9ee43036a7a6e417bf506ff442d
+Algo: Ed25519
+Signature: kQHzmULeBkq/ctzJXMLh3ppZD8G6fd6/N7O30xnZl/JR6ppqcsEd4t9nxH7ZRIQ9EjG7H1yYpFZXzW4XgzKyBQ==
+---END SYNTHAICODE SIGNATURE---
