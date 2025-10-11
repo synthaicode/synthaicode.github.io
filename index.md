@@ -57,7 +57,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
   <section class="section">
     <h2>Follow</h2>
     <ul class="links">
-      <li><a href="https://x.com/synthaicode_org">X (Twitter): @synthaicode_org</a></li>
+      <li><a href="https://x.com/synthaicode">X (Twitter): @synthaicode</a></li>
       <li><a href="https://github.com/synthaicode">GitHub</a></li>
     </ul>
   </section>
