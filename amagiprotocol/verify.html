@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Verify the digital signatures of SynthAICode official documents using the Commander’s Ed25519 key." />
+  <title>Verify Document Signatures | SynthAICode</title>
+  <link rel="icon" href="/assets/favicon.ico" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background-color: #fff;
+      color: #222;
+      max-width: 720px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+    }
+    a {
+      color: #7c3aed;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #9f67ff;
+      text-decoration: underline;
+    }
+    code, pre {
+      background: #f7f7f8;
+      border-radius: 6px;
+      padding: 0.4rem 0.6rem;
+      font-size: 0.9rem;
+      display: block;
+      overflow-x: auto;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔐 Document Verification</h1>
+  <p>
+    All official <strong>SynthAICode</strong> and <em>Amagi Protocol</em> documents are digitally signed using
+    the Commander’s <code>Ed25519</code> key.
+  </p>
+
+  <h2>Public Key</h2>
+  <p>
+    The public key is available here:<br>
+    <a href="./pk.pem" download>➡️ Download pk.pem</a>
+  </p>
+
+  <h2>Verify Markdown (.md)</h2>
+  <pre>
+# Extract signature and verify the document
+openssl pkeyutl -verify -pubin -inkey pk.pem -rawin \
+  -sigfile amagi_protocol_v3.md.sig \
+  -in amagi_protocol_v3.md
+  </pre>
+
+  <h2>Verify PDF (.pdf)</h2>
+  <pre>
+# Verify the signed PDF
+openssl pkeyutl -verify -pubin -inkey pk.pem -rawin \
+  -sigfile amagi_protocol_v3.pdf.sig \
+  -in amagi_protocol_v3.pdf
+  </pre>
+
+  <h2>Key Details</h2>
+  <p>
+    Algorithm: <code>Ed25519</code><br>
+    Created: <code>2025-10-11</code><br>
+    Fingerprint (SHA256): <code>[insert fingerprint here]</code>
+  </p>
+
+  <footer>
+    <p><a href="https://synthaicode.org/">← Back to SynthAICode.org</a></p>
+    <p>© 2025 SynthAICode.org — CC BY-SA 4.0</p>
+  </footer>
+
+</body>
+</html>
