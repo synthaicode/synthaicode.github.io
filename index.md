@@ -62,7 +62,12 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     </ul>
   </section>
 </main>
-
+<section style="text-align:center; margin-top:2rem; font-size:0.9rem;">
+  🔐 All official documents are digitally signed.<br>
+  <a href="/amagiprotocol/verify.html" style="color:#7c3aed;">
+    View public key & verification guide →
+  </a>
+</section>
 <footer class="footer">
   <p>© 2025 SynthAICode.org — CC BY-SA 4.0</p>
 </footer>
