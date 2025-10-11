@@ -7,6 +7,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+　<meta name="document-signature" content="All official SynthAICode documents are digitally signed with Ed25519 key.">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SynthAICode — Amagi Protocol</title>
   <link rel="stylesheet" href="/assets/css/site.css" />
