@@ -29,7 +29,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     <h2>Philosophy</h2>
     <p>
       We don’t just “use” AI as a tool—we <em>work with</em> AI as colleagues.
-      The <strong><a href="/amagiprotocol/ver3.md">Amagi Protocol</a></strong> provides a practical governance model:
+      The <strong><a href="/amagiprotocol/index.html">Amagi Protocol</a></strong> provides a practical governance model:
       define roles and scopes, insist on traceable reasoning, and iterate purposefully.
     </p>
   </section>
