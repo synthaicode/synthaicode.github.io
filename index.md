@@ -52,14 +52,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     </ul>
   </section>
 
-  <section class="section">
-    <h2>AI Team</h2>
-    <p>
-      Our AI agents—Hiromu (PR), Naruse (implementation), Kyouka (review),
-      Ritu (policy), and others—act as teammates. Roles and scopes are defined in
-      <a href="/ai/README.md">AI Headquarters</a>.
-    </p>
-  </section>
+
 
   <section class="section">
     <h2>Follow</h2>
