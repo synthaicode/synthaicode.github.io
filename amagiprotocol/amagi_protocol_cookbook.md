@@ -25,7 +25,7 @@ It builds trust step by step, and that trust becomes the edge of the AI era.
 This book shows how to **pull AI toward your own beat**.  
 Never hand it the baton—do that and you surrender your rhythm.  
 Lay out your assumptions, agree on the goal, and speak in words that feel like home.  
-To do that, you must be brave enough to let the AI say "I don't know."  
+To do that, you must be brave enough to let the AI say "I don't get it."  
 That tiny honesty is the cornerstone of trust.  
 Pretend it isn't needed and the whole foundation cracks.
 
@@ -42,7 +42,7 @@ What follows is a set of recipes for ordinary people who still want extraordinar
 
 ### 2. Handling AI Answers
 - **Genius**: swallows speculation whole
-- **Ordinary**: celebrates "I don't know" and refuses to fake agreement
+- **Ordinary**: celebrates "I don't get it" and refuses to fake agreement
 
 ### 3. Pace of Progress
 - **Genius**: heads straight for the finished dish
@@ -67,7 +67,7 @@ Use your own words, your rhythm. Let the model tune to you.
 That keeps clarity intact and trust unshaken.
 → Example: say "deep breath" to reset, "OK" to confirm—whatever feels natural.
 
-### Rule 1: Make It Admit "I Don't Know"
+### Rule 1: Make It Admit "I Don't Get It"
  Goal : Build trust by exposing uncertainty instead of hiding it.  
 Those three words are the fuse that keeps trust from blowing.
 
@@ -86,7 +86,7 @@ If the tone still feels off, apply Rule 4 (Think in Comparisons): ask “Show me
 This contrast forces the AI to re-anchor its voice to your intent.
 
 ##### Learning / Research  
-Welcome “I don’t know.” Each time it admits that, narrow the scope and feed extra context (“Focus on studies after 2022,” “Limit to European sources”).  
+Welcome “I don’t get it.” Each time it admits that, narrow the scope and feed extra context (“Focus on studies after 2022,” “Limit to European sources”).  
 The effect is twofold: you reduce hallucination risk and teach the AI your standards for precision.
 
 ### Rule 4: Think in Comparisons
@@ -160,7 +160,7 @@ The process embodies the essence of *guarding the context* while letting each ag
   These small signals keep logical consistency intact.
 
 - **Learning / Research:**  
-  When the AI admits “I don’t know,” embrace it (*Rule 1*).  
+  When the AI admits “I don’t get it,” embrace it (*Rule 1*).  
   Narrow the scope: “Focus on papers after 2022,” or “Limit to European case studies.”  
   Each clarification strengthens trust and reduces hallucination by restoring context (*Rule 0 + Rule 2* in action).
 
@@ -176,7 +176,7 @@ the true structure of Amagi Protocol in daily practice.
 
 ## Part 4: Closing and Declaration
 - Dialogue is powerful precisely because we're ordinary.
-- Embrace "I don't know" and refuse to play along.
+- Embrace "I don't get it" and refuse to play along.
 - Don't twist yourself around AI—let AI pick up your colors.
 - Ignore that and the protocol fails before it even starts.
 - **The Ordinary Cookbook *is* the Amagi Protocol.**
