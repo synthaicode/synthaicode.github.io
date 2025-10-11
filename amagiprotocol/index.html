@@ -107,21 +107,52 @@
 
   /* Buttons */
   .actions{display:flex;gap:12px;flex-wrap:wrap;}
-  .btn{
-    --bgc:#e5e7eb; --ink:#0b0d11; --bdc: transparent;
-    display:inline-flex; align-items:center; gap:.55rem;
-    padding:12px 16px; border-radius:12px; border:1px solid var(--bdc);
-    background: var(--bgc); color: var(--ink); font-weight:700; letter-spacing:.2px;
-    box-shadow: 0 6px 18px rgba(0,0,0,.08);
-    text-decoration:none;
-  }
-  .btn:hover{transform: translateY(-1px); box-shadow: 0 10px 24px rgba(0,0,0,.12); text-decoration:none;}
+.btn {
+  display: inline-block;
+  padding: 0.8em 1.8em;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.6em;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
   .btn:focus-visible{outline:3px solid var(--brand); outline-offset:2px;}
   .btn.small{padding:10px 14px; border-radius:999px; font-weight:600;}
 
-  .btn-friendly{ --bgc: color-mix(in oklab, var(--ok) 78%, #fff 22%); --ink:var(--ok-ink); --bdc: color-mix(in oklab, var(--ok) 65%, #000 35%);}
-  .btn-neutral{ --bgc: color-mix(in oklab, var(--neutral) 82%, #fff 18%); --ink:#081a38; --bdc: color-mix(in oklab, var(--neutral) 65%, #000 35%);}
-  .btn-formal{ --bgc: var(--formal); --ink:#f8fafc; --bdc: #000;}
+.btn-friendly {
+  background-color: #34c759;
+  color: #fff;
+}
+
+.btn-neutral {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.btn-formal {
+  background-color: #333;
+  color: #fff;
+}
+  .step {
+  margin-bottom: 3rem;  /* 各STEP間をしっかり分離 */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* セクション間隔をゆったり */
+.section-title {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* --- Origin（ver2セクション）を柔らかく --- */
+.tone-formal {
+  background: #f6f6f6;
+  border: 1px solid #e0e0e0;
+}
 
   /* Footer note */
   .note{color:var(--muted); font-size:.92rem; margin-top:24px}
