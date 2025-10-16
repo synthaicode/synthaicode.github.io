@@ -38,16 +38,16 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
   <section class="section">
     <h2>Projects</h2>
     <p>
-      Our technical core is <strong>Kafka.Ksql.Linq</strong>—a LINQ-style DSL for KsqlDB
+      Our technical core is <strong>Ksql.Linq</strong>—a LINQ-style DSL for KsqlDB
       co-created by a human and AIs.
     </p>
     <ul class="cards">
       <li class="card">
         <img src="/assets/projects/logo-linq-ksql.png" alt="LINQ | Ksql logo" />
         <div>
-          <h3>Kafka.Ksql.Linq</h3>
+          <h3>Ksql.Linq</h3>
           <p>Reframing Kafka/KsqlDB expressiveness with DSL × AI.</p>
-          <p><a href="https://github.com/synthaicode/Kafka.Ksql.Linq">View on GitHub →</a></p>
+          <p><a href="https://github.com/synthaicode/Ksql.Linq">View on GitHub →</a></p>
         </div>
       </li>
     </ul>
