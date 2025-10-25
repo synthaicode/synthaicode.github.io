@@ -43,7 +43,7 @@ description: A bridge between a human and AIs. Powered by the Amagi Protocol.
     </p>
     <ul class="cards">
       <li class="card">
-        <img src="/assets/projects/logo-linq-ksql.png" alt="LINQ | Ksql logo" />
+        <img src="/assets/projects/ksqllinq-logo.png" alt="LINQ | Ksql logo" />
         <div>
           <h3>Ksql.Linq</h3>
           <p>Reframing Kafka/KsqlDB expressiveness with DSL × AI.</p>
